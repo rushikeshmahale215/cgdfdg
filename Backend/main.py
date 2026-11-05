@@ -45,7 +45,11 @@ app = FastAPI(title="Wind Forecast Desk", lifespan=lifespan)
 
 # Comma-separated list of allowed frontend origins; "*" for local development
 _origins = os.getenv("ALLOWED_ORIGINS", "*").split(",")
+
 app.add_middleware(CORSMiddleware, allow_origins=["https://cgdfdg-2.onrender.com"],allow_credentials=True, allow_methods=["*"], allow_headers=["*"])
+
+app.add_middleware(CORSMiddleware, allow_origins=_origins, allow_methods=["GET"])
+
 
 
 def _cutoff(delivery: date, hour: int) -> datetime:

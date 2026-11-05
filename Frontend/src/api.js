@@ -1,3 +1,4 @@
+
 const BASE = import.meta.env.VITE_API_URL || "https://cgdfdg-2.onrender.com";
 
 async function get(path, params = {}) {
