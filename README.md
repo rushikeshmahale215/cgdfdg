@@ -164,8 +164,8 @@ The first request for a full month can take several seconds because it fetches f
 
 ## Deployment
 
-- Frontend: <<FILL: Vercel>>
-- Backend: <<FILL: Heroku / other>>
+- Frontend: <<FILL: Render>>
+- Backend: <<FILL:  Render>>
 - The frontend reads the backend address from `VITE_API_URL`.
 
 ## Limitations
