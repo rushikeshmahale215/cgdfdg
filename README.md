@@ -1,3 +1,4 @@
+
 # Wind Forecast Desk: UK Day-Ahead Wind Forecast and Accuracy Portal
 
 A web app for a UK energy utility's day-ahead power buying team. It answers two questions:
@@ -44,7 +45,7 @@ Scope:
 - All times are **UTC**, which equals UK local time in January (GMT).
 
 Data notes:
-- <<FILL: after running the check in backend/README.md, state whether WINDFOR `startTime` values fall on the hour only (hourly) or on both :00 and :30 (half-hourly). If hourly, say that accuracy is scored only where a real forecast exists and no values were invented.>>
+FILL: after running the check in backend/README.md, state whether WINDFOR `startTime` values fall on the hour only (hourly) or on both :00 and :30 (half-hourly). If hourly, say that accuracy is scored only where a real forecast exists and no values were invented.>>
 - Elexon requires attribution: *Contains BMRS data © Elexon Limited copyright and database right.* This appears in the app footer.
 
 ## Key analytical decision: no hindsight
@@ -70,7 +71,7 @@ The same metrics are reported by hour of day and by delivery day.
 
 ## January 2026 results (cutoff 09:00 UTC on D-1)
 
-<<FILL: copy from the Accuracy page with range 2026-01-01 to 2026-01-31 and cutoff 09:00.>>
+FILL: copy from the Accuracy page with range 2026-01-01 to 2026-01-31 and cutoff 09:00.
 
 | Metric | Value |
 |---|---|
@@ -178,3 +179,6 @@ The first request for a full month can take several seconds because it fetches f
 - Compare accuracy across several cutoff times in one view.
 - Analyse error by forecast horizon (how many hours ahead the forecast was issued).
 - Add demand data to turn the wind error into an actual purchase volume.
+
+# cgdfdg
+
