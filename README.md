@@ -12,7 +12,7 @@ Data comes only from Elexon's national wind datasets (actuals and forecasts), fo
 
 | Item | URL |
 |---|---|
-| Live app | <<FILL: deployed Vercel/Heroku URL>> |
+| Live app | <<FILL: deployed Render URL>> |
 | Video demo (unlisted YouTube) | <<FILL: YouTube URL>> |
 | Backend API docs (when running) | `<backend-url>/docs` |
 
